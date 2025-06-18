@@ -1,0 +1,35 @@
+# 构建目录
+build/
+out/
+
+# Python 缓存文件
+__pycache__/
+*.pyc
+
+# 编译生成的二进制文件
+*.pyd
+*.dll
+*.exp
+*.lib
+
+# Visual Studio 用户文件
+*.user
+*.suo
+*.sdf
+*.opensdf
+*.vcxproj.*
+*.filters
+*.sln
+
+# 日志和临时文件
+*.log
+*.idb
+*.pdb
+*.tlog
+
+# 目录
+ipch/
+x64/
+Debug/
+Release/
+.vs/
