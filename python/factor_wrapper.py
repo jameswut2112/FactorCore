@@ -10,7 +10,10 @@ except ImportError:
     import sys
     import os
     # build_dir = os.path.join(os.path.dirname(__file__), "..", "build", "bin", "Release")
-    build_dir = r"D:\project_C++_FactorCore\FactorCore\out\build\x64-Debug\bin"
+    # build_dir = r"D:\project_C++_FactorCore\FactorCore\out\build\x64-Debug\bin"
+    build_dir = r"D:\project_C++_FactorCore\FactorCore\build\debug\bin\debug"
+    
+    
     sys.path.insert(0, os.path.abspath(build_dir))
     from factors import FactorBase
     

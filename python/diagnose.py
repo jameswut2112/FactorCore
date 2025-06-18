@@ -20,7 +20,8 @@ print("尝试加载模块")
 print("=" * 50)
 
 # 模块路径 - 根据您的实际路径调整
-module_path = r"D:\project_C++_FactorCore\FactorCore\out\build\x64-Debug\bin\factors.pyd"
+# module_path = r"D:\project_C++_FactorCore\FactorCore\out\build\x64-Debug\bin\factors.pyd"
+module_path = r"D:\project_C++_FactorCore\FactorCore\build\debug\bin\debug\factors.pyd"
 
 if not os.path.exists(module_path):
     print(f"错误: 模块文件不存在 - {module_path}")

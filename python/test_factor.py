@@ -5,7 +5,9 @@ import pandas as pd
 
 # 添加模块路径
 # sys.path.append(os.path.join(os.path.dirname(__file__), "..", "build", "bin", "Debug"))
-sys.path.append(f"D:\\project_C++_FactorCore\\FactorCore\\out\\build\\x64-Debug\\bin")
+# sys.path.append(f"D:\\project_C++_FactorCore\\FactorCore\\out\\build\\x64-Debug\\bin")
+sys.path.append(r"D:\project_C++_FactorCore\FactorCore\build\debug\bin\debug")
+
 print(f"Python 路径: {sys.path}")
 
 
