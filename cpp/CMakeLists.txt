@@ -8,7 +8,7 @@ add_library(factors MODULE
     src/module.cpp
     src/factor_base.cpp
     src/custom_factor.cpp  # 添加具体因子实现
-)
+ "include/market_data.hpp")
 
 # 设置模块名
 set_target_properties(factors PROPERTIES
